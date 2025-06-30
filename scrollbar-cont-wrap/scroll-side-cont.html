@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side-bar-content</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+    
+        <aside class="sticky">
+            <nav>
+                <ul class="nav">
+                    <li><a href="#home"> Home Page</a></li>
+                    <li><a href="#sub"> Sub Page</a></li>
+                    <li><a href="#about"> About US</a></li>
+                    <li><a href="#buy"> Buy App </a></li>
+                    <li><a href="#contact"> Contact </a></li>
+                </ul>
+            </nav> 
+        </aside>
+        <section class="sec-wrap" id="home">
+            <h2>Who is this app home at?</h2>
+            <p>This app does everything you could possibly want it to do and not only that, it is beautifully designed and
+                extremely intuitive to use. Download it from the App Store for FREE if you don’t mind some adverts popping
+                up or if you prefer an ad-free experience then you can down load the ad-free version for 99p.</p>
+           
+            <p>Everyone who could possibly need to do anything! It really is the full experience.</p>
+    
+            <p>Yes it does and has been given 5 out of 5 stars on all the reviews we’ve seen so far, so download it now and
+                let us know what you think.</p>
+            
+        </section>
+
+
+
+        <section class="sec-wrap" id="sub">
+            <h2>Who is this app sub at?</h2>
+            <p>This app does everything you could possibly want it to do and not only that, it is beautifully designed and
+                extremely intuitive to use. Download it from the App Store for FREE if you don’t mind some adverts popping
+                up or if you prefer an ad-free experience then you can down load the ad-free version for 99p.</p>
+
+                <p>This app does everything you could possibly want it to do and not only that, it is beautifully designed and
+                    extremely intuitive to use. Download it from the App Store for FREE if you don’t mind some adverts popping
+                    up or if you prefer an ad-free experience then you can down load the ad-free version for 99p.</p>
+        </section>
+
+
+        <section class="sec-wrap" id="about">
+            <h2>Who is this app about at?</h2>
+            <p>This app does everything you could possibly want it to do and not only that, it is beautifully designed and
+                extremely intuitive to use. Download it from the App Store for FREE if you don’t mind some adverts popping
+                up or if you prefer an ad-free experience then you can down load the ad-free version for 99p.</p>
+
+                <p>This app does everything you could possibly want it to do and not only that, it is beautifully designed and
+                    extremely intuitive to use. Download it from the App Store for FREE if you don’t mind some adverts popping
+                    up or if you prefer an ad-free experience then you can down load the ad-free version for 99p.</p>
+        </section>
+
+        <section class="sec-wrap" id="buy">
+            <h2>Who is this app buy at?</h2>
+            <p>This app does everything you could possibly want it to do and not only that, it is beautifully designed and
+                extremely intuitive to use. Download it from the App Store for FREE if you don’t mind some adverts popping
+                up or if you prefer an ad-free experience then you can down load the ad-free version for 99p.</p>
+
+                <p>This app does everything you could possibly want it to do and not only that, it is beautifully designed and
+                    extremely intuitive to use. Download it from the App Store for FREE if you don’t mind some adverts popping
+                    up or if you prefer an ad-free experience then you can down load the ad-free version for 99p.</p>
+        </section>
+
+        <section class="sec-wrap" id="contact">
+            <h2>Who is this app contact at?</h2>
+            <p>This app does everything you could possibly want it to do and not only that, it is beautifully designed and
+                extremely intuitive to use. Download it from the App Store for FREE if you don’t mind some adverts popping
+                up or if you prefer an ad-free experience then you can down load the ad-free version for 99p.</p>
+
+                <p>This app does everything you could possibly want it to do and not only that, it is beautifully designed and
+                    extremely intuitive to use. Download it from the App Store for FREE if you don’t mind some adverts popping
+                    up or if you prefer an ad-free experience then you can down load the ad-free version for 99p.</p>
+        </section>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+   <!-- <script src="js/jquery.sticky.js"></script>-->
+    <script>
+        $(document).ready(function () {
+        var offset = $('.sticky').offset();
+        $(window).scroll(function(e) {
+            if(window.scrollY >= offset.top) { 
+                $('.sticky').addClass('fixed');
+                $('.top').removeClass('hide');
+            }  else {
+                $('.sticky').removeClass('fixed');
+                $('.top').addClass('hide');
+            }
+        });
+
+        $('.top a').click(function(){
+        $(document.body).animate({scrollTop : 0},800);
+        return false;
+        });
+
+
+        /*------ nav active link -------*/arguments
+        // $('.nav li').click(function(){
+        //     $('.nav li').removeClass("active");
+        //     var nvlink = $(this);            
+        //     if(!nvlink.hasClass('active')){
+        //         nvlink.addClass('active');
+        //     }
+        // });
+        $(document).on('click', '.nav li a', function(e){
+            var listVal= $(this).attr('href');
+            // alert(listVal);
+            $('.sec-wrap').removeClass('active');
+            $(".nav li a").removeClass("active");
+            $(this).addClass("active");
+            $(listVal).addClass('active');
+        });
+
+    });
+
+
+
+
+        /*$sidebar = $("#left-nav");
+        $window = $(window);
+        var sidebarOffset = $sidebar.offset();
+        
+        $window.scroll(function () {
+            if ($window.scrollTop() > sidebarOffset.top) {
+                $sidebar.stop().animate({
+                    marginTop: $window.scrollTop() - sidebarOffset.top
+                });
+            } else {
+                $sidebar.stop().animate({
+                    marginTop: 0
+                });
+            }
+        });
+      /*  $(window).on("load", function () {
+            $("#left-nav").sticky({ topSpacing: 0, bottomSpacing: 0, });
+            if ($(window).width() < 980) {
+                $("#left-nav").unstick();
+            }
+        });*/
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+[data-comp-spacing="web-forms-migration"],.web-forms-migration{background-color:#fff}
+[data-comp-spacing="rtf-general-content"]{background-color:#fff}
+.web-forms-migration .submit-section{clear:both}
+.web-forms-migration .contactSideThankyou{position:static;top:10%}
+.web-forms-migration .errorSpanShow{display:table}
+.web-forms-migration .form-section-title{font-size:14px;font-weight:bold;line-height:20px}
+.web-forms-migration .form-section-sub-title{margin:15px 0}
+.web-forms-migration .domestic-violence .sub-section-title{padding-bottom:10px;display:block}
+.web-forms-migration .contact-us__contact-form [class*="col-"] .form-icon-wrapper svg{top:10px}
+.web-forms-migration .privacy-link{margin-top:20px;font-size:14px}
+.web-forms-migration .preference-section .errorSpanShow{top:0}
+.web-forms-migration .remove-policy-number-text-box{float:right}
+.web-forms-migration .remove-another-email-field{margin-top:5px}
+.web-forms-migration .add-another-email-link{margin:10px 0 0}
+.web-forms-migration .add-policy-number-text-box{margin-bottom:0}
+.web-forms-migration .add-policy-number-text-box,.web-forms-migration .remove-policy-number-text-box,.web-forms-migration .add-another-email-link,.web-forms-migration .remove-another-email-field{font-size:14px;line-height:20px}
+.web-forms-migration .policy-number-section .remove-policy-number-text-box{margin:5px 0}
+.web-forms-migration .help-text-heading{font-size:13px;line-height:16px}
+.web-forms-migration .help-text-content{font-size:13px;line-height:15px}
+.web-forms-migration .ml-form-field-checkboxes-group{width:auto;position:relative;margin:0;border-radius:2px;padding-left:25px}
+.web-forms-migration .web-forms-migration .updateInfoForm .product-info .ml-form-field-checkboxes-group{margin:10px 0 7.5px}
+.web-forms-migration .ml-form-field-checkboxes-group input{position:absolute}
+.web-forms-migration .ml-form-field-checkboxes-group label{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:90%;height:16px;cursor:pointer;position:relative;padding:0 0 0 25px;margin-left:-25px;color:#333}
+.web-forms-migration .ml-form-field-checkboxes-group label:before{content:'';width:16px;height:16px;position:absolute;top:-1px;left:2px;border:solid 2px #757575}
+.web-forms-migration .ml-form-field-checkboxes-group label:after{content:'';width:9px;height:4px;position:absolute;top:4px;left:6px;border-left:2px solid #007abc;border-bottom:2px solid #007abc;opacity:0;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
+.web-forms-migration .ml-form-field-checkboxes-group input[type=checkbox]{opacity:0}
+.web-forms-migration .ml-form-field-checkboxes-group input[type=checkbox]:checked+label:after{opacity:1}
+.web-forms-migration .ml-form-field-checkboxes-group input[type=checkbox]:focus+label:before,.ml-form-field-checkboxes-group input[type=checkbox]:checked+label:before{border-color:#007abc}
+.web-forms-migration .what-this-text{padding-top:5px}
+.tooltip{position:relative;z-index:1030;display:block;visibility:visible;opacity:0}
+.tooltip-content{padding:10px 0 5px 0;color:#333;text-decoration:none;font-size:13px;line-height:16px}
+.web-forms-migration .dob-section .month,.web-forms-migration .dob-section .day{padding-right:10px}
+.web-forms-migration .effective-date-section .month,.web-forms-migration .effective-date-section .day{padding-right:10px}
+.web-forms-migration .optout-dob-label{font-style:normal;display:block;width:100%;font-size:12px;line-height:16px;margin-bottom:15px}
+.web-forms-migration .policy-numbers{margin-bottom:15px}
+.web-forms-migration .smallitalic{font-style:italic;font-size:11px;line-height:15px;margin-top:10px}
+.web-forms-migration .policy-section .smallitalic{margin:5px 0 10px 0}
+.web-forms-migration .form-check-grp label input+span,.form-radio-grp label input+span{color:#333}
+.web-forms-migration .ml-form-field-errortext{display:none;font-size:12px;color:#db1818;margin-top:5px}
+.web-forms-migration .ml-form-field.error input,.ml-form-field.error select{border:solid 1px #db1818;background-color:#fde8e8}
+.web-forms-migration .ml-form-field.error input:focus,.ml-form-field.error select:focus{background-color:#fff}
+.web-forms-migration .ml-form-field.error input:focus+span,.ml-form-field.error select:focus+span{background-color:#fff;color:#db1818}
+.web-forms-migration .ml-form-field.error span{background-color:#fde8e8;color:#db1818}
+.web-forms-migration .ml-form-field.error .ml-form-field-errortext{display:block}
+.domestic-violence .page-title__heading{margin-bottom:20px;width:100%}
+.page-sub-title{font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#333}
+.web-forms-migration .dateOfBirth .width-30{width:30%;float:left}
+.web-forms-migration .dateOfBirth .width-40{width:40%;float:left}
+.web-forms-migration .dateOfBirth .month,.web-forms-migration .dateOfBirth .day{padding-right:10px}
+.web-forms-migration .dateOfBirth .time{padding-left:0}
+.web-forms-migration .ml-form{padding:20px;position:relative}
+.web-forms-migration .altLocations1{margin-top:0;margin-bottom:10px}
+.web-forms-migration .updateInfoForm .form-section ol{list-style-type:decimal;padding-left:50px;margin-bottom:10px;margin-top:10px}
+.web-forms-migration .form-section ol li{margin-bottom:10px}
+.web-forms-migration .contact-metlife-form .form-section-header{margin-top:20px}
+.web-forms-migration .your-enquiry-section .form-row.align-with-dob{padding-top:23px}
+.web-forms-migration .domestic-violence .dontSeeProducts{display:block}
+.reports-and-prospectus-table thead th:first-child{padding-left:20px}
+.reports-and-prospectus-table thead th{font-weight:bold;font-size:14px;line-height:20px;background-color:#e5eff5;text-align:left;padding:5px 2.5px}
+.two-column-table .rate_table .content_body .reports-and-prospectus-table td:last-child{text-align:left}
+.error_message_overlay .js-close-reports-and-prospectus-overlay{margin:10px auto;display:block}
+.reports_and_prospectus_overlay .rate_table .content{margin-bottom:10px}
+.web-forms-migration .errorAllFieldsSpan.errorSpanShow{display:table}
+.web-forms-migration .errorAllFieldsSpan{color:#eb4646;font-weight:bold;margin-bottom:10px;display:none}
+.web-forms-migration ul.auto-claim-thanks-text li{text-align:left}
+.web-forms-migration .align-dropdown-icon{right:13px}
+.web-forms-migration .webforms-help-text{line-height:15px;padding-top:5px;font-size:12px;font-style:italic}
+.web-forms-migration .dontSeeProducts{font-size:12px;font-style:italic}
+.static-form-container .askQuestionForm .form-radio-grp label input.user-radio[type=radio]:checked+span:before{border:solid 2px #007abc;background:none !important;background-size:0;border-radius:100%;top:2px;left:0}
+.static-form-container .injury-radio-options .form-radio-grp label input.user-radio[type=radio]:checked+span:before,.static-form-container .towed-vehicle .form-radio-grp label input.user-radio[type=radio]:checked+span:before{border:solid 2px #007abc;background:none !important;background-size:0;border-radius:100%;top:2px;left:0}
+.static-form-container .askQuestionForm .form-radio-grp label input.user-radio[type=radio].whiteRadioDial:checked+span:after,.static-form-container .askQuestionForm .form-radio-grp label input.user-radio[type=radio]:checked+span:after{background:0;background-size:17px 17px;content:'';width:7px;height:7px;position:absolute;top:8px;left:6px;background-color:#007abc;border:solid 1px #007abc;border-radius:50%}
+.static-form-container .injury-radio-options .form-radio-grp label input.user-radio[type=radio].whiteRadioDial:checked+span:after,.static-form-container .injury-radio-options .form-radio-grp label input.user-radio[type=radio]:checked+span:after,.static-form-container .towed-vehicle .form-radio-grp label input.user-radio[type=radio].whiteRadioDial:checked+span:after,.static-form-container .towed-vehicle .form-radio-grp label input.user-radio[type=radio]:checked+span:after{background:0;background-size:17px 17px;content:'';width:7px;height:7px;position:absolute;top:8px;left:6px;background-color:#007abc;border:solid 1px #007abc;border-radius:50%}
+.static-form-container .askQuestionForm .form-radio-grp label input.user-radio+span:before{top:2px;border:solid 1px #757575;border-radius:100%;background:0;width:19px;height:19px}
+.static-form-container .injury-radio-options .form-radio-grp label input.user-radio+span:before,.static-form-container .towed-vehicle .form-radio-grp label input.user-radio+span:before{border:solid 1px #757575;border-radius:100%;top:2px;background:0;width:19px;height:19px}
+.preference-section .form-field-errormessage{font-size:12px;color:#db1818;position:relative}
+.web-forms-migration .insuredDateOfBirth .form-field-errormessage{font-size:12px;color:#db1818;top:-23px}
+.web-forms-migration .errorSpan .errorLabel{margin-left:0}
+.web-forms-migration .errorSpan{background:0;border:0;color:#db1818;padding:0}
+.web-forms-migration .errorSpan:after,.web-forms-migration .errorSpan:before{display:none}
+.web-forms-migration .damaged-option-list .col-xs-12 .errorSpanShow+.damaged-group{border:1px solid #db1818;overflow:hidden;padding-bottom:20px;background-color:#fde8e8}
+.web-forms-migration .damaged-option-list .col-xs-12 .errorSpanShow+.damaged-group label{color:#db1818;background-color:#fde8e8}
+.web-forms-migration .injury-radio-options .errorSpanShow+.row{border:1px solid #db1818;overflow:hidden;background-color:#fde8e8}
+.web-forms-migration .injury-radio-options .errorSpanShow+.row .col-xs-12{padding:0 10px}
+.web-forms-migration .injury-radio-options .errorSpanShow+.row .col-xs-12 .form-radio-grp label span{color:#db1818}
+.web-forms-migration .dateOfBirth.form-field-container{margin-bottom:0}
+.web-forms-migration .product-information-error{border:1px solid #db1818;padding-right:20px !important;margin-top:5px;padding:5px;background-color:#fde8e8}
+.web-forms-migration .product-order-error,.preference-section-content{border:1px solid #db1818;background-color:#fde8e8;overflow:hidden;padding:10px !important;margin-top:10px}
+.web-forms-migration .product-order-error,.preference-section-content label,.product-information-error{color:#757575}
+#policyHolderDateOfBirth .form-field-errormessage{position:relative;top:-22px}
+.error-bg{background-color:#fde8e8 !important}
+.errorSection{border:1px solid #db1818;background-color:#fde8e8}
+.baseContactFormCard.static-form-container .form-field-container label{width:auto}
+.static-form-container .damaged-option-list .form-field-container{margin-bottom:0}
+.static-form-container .form-field-custom-groups .form-user-grp.form-field-container.year,.form-field-container.day,.form-field-container.month{margin-bottom:0}
+.static-form-container .form-field-container .error ~ .form-field-errormessage{display:block}
+.web-forms-migration .static-form-container .form-field-container select{font-size:14px}
+.web-forms-migration .static-form-container span.form-section-status.form__subtitle{font-style:normal}
+.web-forms-migration .static-form-container .left-column label.form__subtitle,.adjust-row-spacing>label{font-style:normal}
+.email-unsubscribe .error{background:#fde8e8 !important}
+.email-unsubscribe input,select{height:50px}
+.static-form-container .form__title,.static-form-container .form__subtitle{margin-bottom:15px !important;color:#333 !important}
+.form-radio-grp,.damaged-group{margin:20px 15px}
+.form-radio-grp label{margin-bottom:15px}
+.static-form-container .form__title,.static-form-container .form__subtitle.section_title{margin-bottom:0 !important}
+.static-form-container .injury-radio-options .errorSection{margin-top:15px}
+.static-form-container .preference-section-group{padding:10px 25px}
+.static-form-container .ml-form-field-checkboxes{margin-top:10px;margin-left:15px;margin-right:15px}
+.static-form-container .alternative-contact-information-content{margin-top:10px}
+.static-form-container .updateInfoForm .form-section-header{margin-bottom:15px}
+.static-form-container .form-field-container label.focus-state{font-size:12px}
+.static-form-container .form-field-container select{color:#757575}
+.static-form-container .form-section-status.form__subtitle{line-height:20px}
+.static-form-container .insuredDateOfBirth .form-field-container label{width:auto}
+.static-form-container .form-field-container.form-radio-content label{margin-bottom:15px;line-height:21px;padding-top:0}
+@media screen and (max-width:767px){.web-forms-migration .updateInfoForm{width:100%;padding:0}
+.web-forms-migration .web-form-container{width:100%;padding:0 30px}
+.web-forms-migration .microsites-advanced-footer-contact-form{padding:0}
+.web-forms-migration .contact-us__contact-form [class*="col-"] .form-icon-wrapper svg{top:15px}
+.web-forms-migration .form-section{margin-bottom:0}
+.web-forms-migration .thanksHeaderText{font-size:18px;line-height:22px;font-weight:bold;padding-top:30px;text-align:center;color:#333}
+.web-forms-migration .thanksSubText{font-size:14px;line-height:20px;font-weight:300;color:#666;padding-top:20px}
+.web-forms-migration .dateOfBirth .errorSpanShow{top:7px}
+.web-forms-migration .required-fields{padding-bottom:5px}
+.web-forms-migration .preference-section .ml-form-field-checkboxes{margin-top:10px}
+.web-forms-migration .contact-metlife-form .ml-form-field-checkboxes-group{margin-bottom:5px}
+.web-forms-migration .form-section .submitted_user{width:100%}
+.web-forms-migration .ml-form-field-checkboxes-group.car-damaged-parts{margin-bottom:5px}
+.web-forms-migration .updateInfoForm .form-section ol{padding-left:15px}
+.web-forms-migration .auto-claim .img-auto-claim{width:100%;margin:0 auto}
+.reports-and-prospectus-table tbody td:first-child{width:20%}
+.reports-and-prospectus-table tbody td:nth-child(2){width:80%}
+.web-forms-migration ul.auto-claim-thanks-text{list-style-type:decimal;margin-left:20px}
+.web-forms-migration .accident-info-section .form-row [class*="col-xs-6"]:nth-of-type(odd){padding-right:5px}
+.web-forms-migration .accident-info-section .form-row [class*="col-xs-6"]:nth-of-type(even){padding-left:5px}
+.web-forms-migration .form-radio-grp{padding:5px 0;position:relative}
+.web-forms-migration .prod-interest-content{margin-bottom:10px}
+.web-forms-migration .your-enquiry-section .form-row.align-with-dob{padding-top:0}
+.web-forms-migration .notes-section{padding-top:20px}
+.web-forms-migration .policy-section{margin-top:15px}
+.web-forms-migration .policy-section .policy-numbers{margin-bottom:10px}
+.rich-text-component .webform-subheader-text{padding:0 30px}
+}
+@media screen and (min-width:768px){.web-forms-migration .updateInfoForm{width:100%;padding:0}
+.web-forms-migration .updateInfoForm .form-row{margin-top:0;margin-bottom:0;margin-left:0;margin-right:0}
+.static-form-container .damaged-group .form-row{margin-bottom:5px}
+.web-forms-migration .web-form-container{width:90%;margin-left:auto;margin-right:auto}
+.web-forms-migration .microsites-advanced-footer-contact-form{width:100%}
+.web-forms-migration .investmentsContactForm .contatMeSidebarBtn{margin-bottom:0}
+.web-forms-migration .investmentsContactForm .form-row{margin:0;padding:0}
+.web-forms-migration .privacy-section{text-align:right;margin-top:20px}
+.web-forms-migration .align-with-dob{margin-top:23px}
+.web-forms-migration .align-with-dob-opt{margin-top:33px}
+.web-forms-migration .errorSpanShow{top:2px}
+.web-forms-migration .damaged-option-list .errorSpanShow{left:15px;top:-15px}
+.web-forms-migration .dateOfBirth .errorSpanShow{top:7px}
+.web-forms-migration .thanksHeaderText{font-size:20px;line-height:24px;font-weight:bold;padding-top:30px;text-align:center;color:#333}
+.web-forms-migration .thanksSubText{font-size:14px;line-height:20px;font-weight:300;color:#666;padding-top:20px}
+.web-forms-migration .preference-section .errorSpan{width:49%}
+.web-forms-migration .policy-number-section .col-xs-12{width:50%}
+.web-forms-migration .policy-number-section input{width:98%}
+.web-forms-migration .domestic-violence .page-title p{width:100%}
+.web-forms-migration .updateInfoForm .product-info .ml-form-field-checkboxes-group{margin:10px 0 7.5px}
+.web-forms-migration .updateInfoForm .towed-vehicle{padding-top:0}
+.web-forms-migration .policy-number-section .errorSpanShow{width:98%}
+.web-forms-migration .auto-claim .img-auto-claim{width:60%;padding:20px 0 0 0;margin:0 auto}
+.reports-and-prospectus-table tbody td:first-child{width:15%}
+.reports-and-prospectus-table tbody td:nth-child(2){width:85%}
+.web-forms-migration ul.auto-claim-thanks-text{list-style-type:decimal;margin-left:20px}
+.web-forms-migration .updateInfoForm .your-enquiry-section .form-row{padding-top:0;padding-bottom:0;padding-left:0;padding-right:0}
+.web-forms-migration .your-enquiry-section .form-row.align-with-dob{padding-top:23px}
+.web-forms-migration .updateInfoForm .your-enquiry-section .form-row.left-column{padding-right:10px}
+.web-forms-migration .updateInfoForm .your-enquiry-section .form-row.right-column{padding-left:10px}
+.web-forms-migration .policy-number-section .new-policy-number-row{margin-top:15px;clear:both}
+.web-forms-migration .notes-section{padding-top:20px}
+.web-forms-migration .required-fields{padding-bottom:7.5px}
+.static-form-container #ContactForm_EmailUnsubscription .form-field-container,.static-form-container #ContactForm_ChangeofAddress .effective-date-section .form-user-grp.form-field-groups{margin-bottom:0}
+}
+@media(min-width:768px) and (max-width:1024px){.baseContactFormCard.static-form-container .product-group-information .form-field-container label{font-size:.9em}
+}
+@media screen and (min-width:1024px){.web-forms-migration .updateInfoForm{width:85%}
+.web-forms-migration .web-form-container{width:80%}
+.web-forms-migration .microsites-advanced-footer-contact-form{width:85%}
+.web-forms-migration .auto-claim .img-auto-claim{width:60%;padding:20px 0 0 0;margin:0 auto}
+.reports-and-prospectus-table tbody td:first-child{width:15%}
+.reports-and-prospectus-table tbody td:nth-child(2){width:85%}
+.web-forms-migration ul.auto-claim-thanks-text{list-style-type:decimal;margin-left:150px}
+}
+.static-form-container #ContactForm_EmailUnsubscription .form-field-container{margin-bottom:0}
+.web-forms-migration .updateInfoForm .required-section{padding:20px 0 0 0}
+.web-forms-migration .updateInfoForm .required-section:first-of-type{padding-top:0}
+.web-forms-migration .updateInfoForm .optional-section{margin-top:20px}
+.investmentsContactForm .preference-section .form-row{padding:7.5px 0}
+.web-forms-migration .updateInfoForm .required-section p{margin-bottom:10px}
+.web-forms-migration .updateInfoForm .required-section .bottom-spacing{margin-bottom:10px}

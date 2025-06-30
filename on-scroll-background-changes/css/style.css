@@ -1,0 +1,70 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+body{
+   margin: 0;
+   font-size: 1.6rem;
+   font-family: 'Roboto', sans-serif;
+   color: black;
+
+}
+
+.wrap{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contenier{
+    max-width:1170px;
+    margin: 0 auto;
+}
+
+.bg{
+
+    width: 100%;
+    background-image: url("../img/bg-1.jpg");
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    max-height:1000px;
+    height: 100%;
+    position: relative;
+    color: #fff;
+    background-size: cover;
+
+}
+
+.bg::before{
+    content: "";
+    background-color: #00000029;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.bg-cont{
+    padding:25rem 0 25rem 3rem ;
+   
+    text-align: center;
+}
+
+.bg-cont h1{
+
+    font-size: 4.5rem;
+    line-height:75px;
+    margin-bottom: 3.5rem;
+}
+.bg-cont p{
+
+    line-height: 25px;
+    font-size: 1.4rem;
+
+}
+
+
+

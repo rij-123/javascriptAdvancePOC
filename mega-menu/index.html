@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega-Menu</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div  id ="target" class="dropdown-content">
+            <div class="header">
+              <h2>Mega Menu</h2>
+            </div>
+            <div class="row">
+              <div class="column">
+                <h3>Category 1</h3>
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+              <div class="column">
+                <h3>Category 2</h3>
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+              <div class="column">
+                <h3>Category 3</h3>
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            
+          </div>
+        </div> 
+      </div>
+      
+      <script>
+        var myJSON = {
+     
+       
+        "slice of pizza": ["link1", "link2", "link3"],
+        "toppings":[]
+        
+    
+};
+
+console.log(myJSON);
+var myTarget = document.getElementById('target');
+myTarget.appendChild(renderList(myJSON));
+
+function renderList(obj) {
+//   cosmetic utility function for capitalizing text
+  function capitalize(str) {
+    return str[0].toUpperCase() + str.slice(1);
+  }
+//   cosmetic utility for formatting the price
+  
+//   for every level of our JSON object, we create a ul element
+  var result = document.createElement('div');
+//   for every key in the object
+  for (key in obj) {
+//     create a li element and create/add a capitalized copy of the key
+    var list = document.createElement('a')
+    var textnode = document.createTextNode(capitalize(key));
+    list.appendChild(textnode);
+//     if there's another level to the object, recursively call our function
+//     this will create a new ul which we'll add after our text
+    if (typeof obj[key] === 'object') {
+      list.appendChild(renderList(obj[key]));
+    } else {
+//       otherwise it must be a price. add ': ' and the value to the text
+      
+    }
+//     add our completed li to the ul
+    result.appendChild(list); 
+  }
+  return result;
+}
+        
+      </script>
+</body>
+</html>

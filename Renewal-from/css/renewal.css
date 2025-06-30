@@ -1,0 +1,129 @@
+@font-face{font-family:'icomoon';
+    src:url('https://www.pnbmetlife.com/static/images/calculators/fonts/icomoon.eot?k7jzhs');
+    src:url('https://www.pnbmetlife.com/static/images/calculators/fonts/icomoon.eot?k7jzhs#iefix') format('embedded-opentype'),
+    url('https://www.pnbmetlife.com/static/images/calculators/fonts/icomoon.woff2?k7jzhs') format('woff2'),
+    url('https://www.pnbmetlife.com/static/images/calculators/fonts/icomoon.ttf?k7jzhs') format('truetype'),
+    url('https://www.pnbmetlife.com/static/images/calculators/fonts/icomoon.woff?k7jzhs') format('woff'),
+    url('https://www.pnbmetlife.com/static/images/calculators/fonts/icomoon.svg?k7jzhs#icomoon') format('svg');
+    /* src:url('../../../../../../../static/images/calculators/fonts/icomoon.eot?k7jzhs');
+    src:url('../../../../../../../static/images/calculators/fonts/icomoon.eot?k7jzhs#iefix') format('embedded-opentype'),
+    url('../../../../../../../static/images/calculators/fonts/icomoon.woff2?k7jzhs') format('woff2'),
+    url('../../../../../../../static/images/calculators/fonts/icomoon.ttf?k7jzhs') format('truetype'),
+    url('../../../../../../../static/images/calculators/fonts/icomoon.woff?k7jzhs') format('woff'),
+    url('../../../../../../../static/images/calculators/fonts/icomoon.svg?k7jzhs#icomoon') format('svg'); */
+    font-weight:normal;
+    font-style:normal;
+    font-display:block
+}
+[class^="icon-"],[class*=" icon-"]{
+    font-family:'icomoon' !important;
+    speak:never;
+    font-style:normal;
+    font-weight:normal;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+
+body, html {
+    overflow-x: hidden;
+    max-width: 100%;
+    font-family: 'MetLifeCircular','Arial','Helvetica','sans-serif';
+}
+.ChildDreamCalculator{
+    padding-top: 12px;
+}
+
+.form-field-container label{
+    font-size: 16px;
+}
+.form-user-grp label.focus-state{
+    font-size: 12px;
+}
+
+.static-form-container .form-field-container{
+    max-width: 460px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.static-form-container .form-field-container select{
+    background-position: right 0 top 50%;
+    padding: 7px 25px 7px 10px;
+    border: 1px solid #333333;
+}
+.form-user-grp select.form-user-ctrl:focus{
+    outline-width:0;
+}
+select.form-user-ctrl {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    background-image: url(../images/carrot.svg);
+    background-size: 13px 50px;
+    -webkit-appearance: none;
+    background-position: right 9px top;
+    background-repeat: no-repeat;
+    padding-left: 12px;
+    border: 1px solid #757575;
+    color: #000;
+}
+.static-form-container .form-field-container .select-focus{
+    font-weight: normal;
+}
+.form-user-grp{
+    padding: 0;
+}
+.form-user-grp label.focus-state {
+    font-size: 12px;
+    width: auto;
+    font-weight: 400;
+    -webkit-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+    opacity: 1;
+    top: 10px;
+    left: 9px;
+    padding: 0 3px;
+    background: #fff;
+    visibility: visible;
+    color: #333;
+    position:absolute;
+    z-index: 1;
+    font-family: 'Noto Sans','Arial','Helvetica','sans-serif';
+}
+.static-form-container .form-field-container input[type="text"], 
+.static-form-container .form-field-container input[type="tel"]{
+    font-size:16px;
+    border: 1px solid #333333;
+    font-family: 'Noto Sans','Arial','Helvetica','sans-serif';
+}
+
+.btn-brand-1st{
+    padding:17px 50px 14px;
+    margin-top: 8px;
+    width: 176px;
+    font-family: 'Noto Sans','Arial','Helvetica','sans-serif';
+}
+/* .btn-brand-1st:active, .btn-brand-1st:focus, .btn-brand-1st:hover {} */
+
+
+@media(max-width: 991px){
+    .static-form-container .form-field-container{
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 767px){
+    .static-form-container .form-field-container{
+        margin-bottom: 24px;
+    }
+    .groupbtn button, .groupbtn a,.btn-brand-1st{
+        margin: 0 0 12px;
+        width: 100%;
+        max-width: 270px;
+    }
+    
+}

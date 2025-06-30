@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renewal Receipt</title>
+    <script type="text/javascript"
+        src="https://www.pnbmetlife.com/etc.clientlibs/pnb-metlife-market-core/clientlibs/clientlib-jquery.min.js"></script>
+    <link rel="stylesheet"
+        href="https://www.pnbmetlife.com/etc.clientlibs/pnb-metlife-market-core/clientlibs/clientlibs-forms.min.css">
+    <!-- for bootstrap grid css -->
+    <link rel="stylesheet"
+        href="https://www.pnbmetlife.com/etc.clientlibs/pnb-metlife-market-core/clientlibs/clientlib-base/global.min.css"
+        type="text/css">
+
+    <script type="text/javascript" src="js/clientlibs-forms.min.js" defer=""></script>
+    <link rel="stylesheet" href="css/clientlibs-forms.min.css" type="text/css">
+    <link rel="stylesheet" href="css/clientlibs.min.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="content-parsys parsys">
+
+
+
+        <div class="renewal-receipt-form parbase">
+
+            <div class="callYouSection renewalReceiptFormCls">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-11  filmstrip__container">
+                            <div class="filmstrip__container-barOne"></div>
+                            <div class="filmstrip__container-barTwo"></div>
+                            <div class="filmstrip__container-barThree"></div>
+                        </div>
+                    </div>
+
+                    <input type="hidden" name="formTitleAnalytics" value="1474608099">
+                    <div class=" web-forms-migration static-form-container">
+                        <div class="row justify-content-center  ">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <h2></h2>
+                                        <h3>Renewal Receipt</h3>
+                                        <p>Download your renewal premium receipt in just a few clicks</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-user-grp form-field-container">
+                                            <label for="policyNumber" class="">* Policy Number/Application
+                                                Number</label>
+                                            <input type="text" class="form-user-ctrl numbersOnly policyNumber"
+                                                data-required="true" aria-required="true" id="policyNumber"
+                                                name="policyNumber" maxlength="8" autocomplete="off">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-user-grp form-field-container dateField">
+                                            <label for="datepicker">* Date of Birth (DD/MM/YYYY)</label>
+                                            <input type="text" class="form-user-ctrl dobInput" data-required="true"
+                                                aria-required="true" id="datepicker" name="datepicker"
+                                                autocomplete="off" maxlength="10">
+                                            <img src="/etc/metlife/icons/calendar.svg" alt="" class="calIcon">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-user-grp form-field-container">
+                                            <label for="mobileNumber" class="">* Mobile Number</label>
+                                            <input type="text" class="form-user-ctrl numbersOnly mobileNumber"
+                                                data-required="true" aria-required="true" id="mobileNumber"
+                                                name="mobileNumber" maxlength="10" autocomplete="off">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <a class="lead-gen-breaker__cta btn-brand-1st renewalReceiptForm" target="_self"
+                                    tabindex="0">Download</a>
+                                <div class="lds-spinner">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="customModal renewalReceiptFormPopup">
+                <div class="customModal-overlay customModal-toggle"></div>
+                <div class="customModal-wrapper customModal-transition">
+                    <button class="customModal-close customModal-toggle">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <div class="customModal-body">
+                        <div class="customModal-content text-center">
+                            <h2>Renewal Receipt downloaded successfully.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="customModal ErrorData ">
+                <div class="customModal-overlay customModal-toggle"></div>
+                <div class="customModal-wrapper customModal-transition">
+                    <button class="customModal-close customModal-toggle">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <div class="customModal-body">
+                        <div class="customModal-content text-center">
+                            <h2>Error</h2>
+                            <div class="result"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="customModal otpModal ">
+                <div class="customModal-overlay customModal-toggle"></div>
+                <div class="customModal-wrapper customModal-transition">
+                    <button class="customModal-close customModal-toggle">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <div class="customModal-body">
+                        <div class="customModal-content text-center">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="benefitcontent">
+                                        <h3 class="benefitcontTitle">Enter the OTP</h3>
+                                        <p>
+                                            Verify your mobile number by entering the 6 digit OTP sent to +91 <span
+                                                class="mobileNumOTP">XXXXXX7961</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row rowcenter otp-wrap">
+                                <div class="col-md-8">
+                                    <div class="form-user-grp form-field-container ">
+                                        <label for="otpNumber" class="">* Enter 4 Digit OTP </label>
+                                        <input type="text" class="form-user-ctrl numbersOnly Error" name="otpNumber"
+                                            title="Enter 4 Digit OTP" data-required="true" id="otpNumber" maxlength="4"
+                                            pattern="[0-9]*" inputmode="numeric" aria-required="true"
+                                            autocomplete="off" />
+                                        <div class="form-field-errormessage2"></div>
+                                        <div class="form-field-successMessage">OTP sent successfully</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" brand-button-row">
+                                <div class="col-xs-12">
+                                    <a class="btn-brand-1st  otpnumber renewalReceiptForm" id="otpverify" tabindex="0"
+                                        target="_self">
+                                        VERIFY
+                                    </a>
+                                    <div class="lds-spinner" style="margin-bottom: 15px;">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <script type="text/javascript"
+        src="https://www.pnbmetlife.com/etc.clientlibs/pnb-metlife-market-core/clientlibs/clientlib-base/global.min.js"></script>
+    <script type="text/javascript" src="js/renewal.js"></script>
+    <link rel="stylesheet" href="css/renewal.css" type="text/css">
+
+</body>
+
+</html>
