@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multilevel Tabs example</title>
+
+    <style>
+        .main {
+            max-width: 1200px;
+            margin: auto;
+        }
+        
+        .nav-tabs {
+            margin-top: 20px;
+            margin-bottom: 0;
+            padding-left: 0;
+        }
+        
+        .nav-tabs li {
+            display: inline;
+            padding: 10px 15px;
+            border-radius: 8px 8px 0 0;
+            background-color: #f3f3f3;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        
+        .nav-tabs li.active {
+            background-color: #2f92ba;
+        }
+        
+        .nav-tabs li.active a {
+            color: #ffffff;
+        }
+        
+        .nav-tabs li a {
+            text-decoration: none;
+        }
+        
+        .tab-content {
+            margin-top: 9px;
+        }
+        
+        .tab-content.border {
+            border: 1px solid green;
+        }
+        
+        .tab-content .tab-pane {
+            padding: 15px;
+            background-color: #fafafa;
+            display: none;
+        }
+        
+        .tab-content .tab-pane.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <!-- tabs -->
+        <ul class="nav nav-tabs">
+            <li class="active"><a>Home</a></li>
+            <li><a>Menu 1</a></li>
+            <li><a>Menu 2</a></li>
+        </ul>
+
+        <!-- tab content -->
+        <div class="tab-content">
+            <div class="tab-pane active" data-tab="0">
+                <h3>HOME</h3>
+                <p>Some content.</p>
+
+                <!-- tabs -->
+                <ul class="nav nav-tabs">
+                    <li class="active"><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Service</a></li>
+                </ul>
+
+                <!-- tab content -->
+                <div class="tab-content border">
+                    <div class="tab-pane active" data-tab="0">
+                        <h3>HOME</h3>
+                        <p>Some content.</p>
+                    </div>
+                    <div class="tab-pane" data-tab="1">
+                        <h3>About</h3>
+                        <p>Some content.</p>
+                    </div>
+                    <div class="tab-pane" data-tab="2">
+                        <h3>Service</h3>
+                        <p>Some content.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane" data-tab="1">
+                <h3>Menu 1</h3>
+                <p>Some content in menu 1.</p>
+            </div>
+            <div class="tab-pane" data-tab="2">
+                <h3>Menu 2</h3>
+                <p>Some content in menu 2.</p>
+
+                <!-- tabs -->
+                <ul class="nav nav-tabs">
+                    <li class="active"><a>Apple</a></li>
+                    <li><a>Google</a></li>
+                    <li><a>Microsoft</a></li>
+                </ul>
+
+                <!-- tab content -->
+                <div class="tab-content border">
+                    <div class="tab-pane active" data-tab="0">
+                        <h3>Apple</h3>
+                        <p>Some content.</p>
+                    </div>
+                    <div class="tab-pane" data-tab="1">
+                        <h3>Google</h3>
+                        <p>Some content.</p>
+                    </div>
+                    <div class="tab-pane" data-tab="2">
+                        <h3>Microsoft</h3>
+                        <p>Some content.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            multilevelTabs();
+        });
+
+        function multilevelTabs() {
+            //with data attribute
+            $(document).on('click', '.nav-tabs li', function() {
+                var currentElement = $(this).index();
+                $(this).addClass('active');
+                $(this).siblings().removeClass('active');
+
+                $(this).parent('.nav-tabs').next('.tab-content').children('.tab-pane[data-tab=' + currentElement + ']').addClass('active');
+                $(this).parent('.nav-tabs').next('.tab-content').children('.tab-pane[data-tab=' + currentElement + ']').siblings().removeClass('active');
+            });
+        }
+
+
+        // with id
+        // $(document).on('click', '.nav-tabs li', function() {
+        //     var clickTab = $(this);
+        //     var clickHref = $(clickTab).children('a').attr('href');
+
+        //     $('.nav-tabs li').removeClass('active');
+        //     $(clickTab).addClass('active');
+
+        //     $('div' + clickHref + '').addClass('active');
+        //     $('div:not(' + clickHref + ')').removeClass('active');
+        // });
+    </script>
+</body>
+
+</html>
